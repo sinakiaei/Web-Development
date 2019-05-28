@@ -2,7 +2,7 @@ html {
     background: gray;
 }
 
-h1 {
+.page-title {
     background-color: #521751;
     font-size: 20px;
     color: white; 
@@ -15,12 +15,12 @@ a {
     color: black;
 }
 
-.triptext {
+.trip-text {
     background-color: #fa923f;
     padding: 10px;
 }
 
-.triptext p {
+.trip-text p {
     background-color: white;
     margin: 0;
 }
