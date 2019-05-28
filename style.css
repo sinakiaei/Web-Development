@@ -39,31 +39,58 @@ a {
 .navigation li, .navigation a{
      display: inline-block;
      width: 70px;
-     background-color: yellow;
+     background-color: gray;
  }
 
 /*main*/
 .trip-text {
     background-color: #fa923f;
     padding: 0;
+    display: flex;
 }
 
 .trip-text p {
-    background-color: white;
-    margin: 0;
-    display: inline-block;
-    width: 50%;
-}
-
-.feedback {
     background-color: #521751;
     color: white;
+    margin: 0;
+    width: 50%;
     text-align: center;
 }
 
-.review-clients p, .review-clients img {
-    display: inline;
-    vertical-align: middle;
+.trip-images {
+    display: flex;    
+}
+
+.trip-images img {
+    width: 50%;
+    height: 100%;
+}
+.feedback {
+    position: relative; 
+    bottom: 18.4px; 
+    background-color: #521751;
+    color: white;
+    text-align: center;  
+    margin: 0;
+}
+
+.review-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px;
+}
+
+.review-clients img {
+    width: 120px;
+}
+
+.review-clinets p {
+    width: 350px;
+    text-align: center;
 }
 
 /*footer*/
