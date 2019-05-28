@@ -1,3 +1,7 @@
+html {
+    background: gray;
+}
+
 h1 {
     background-color: #521751;
     font-size: 20px;
@@ -5,7 +9,18 @@ h1 {
     padding: 10px;
     margin: 0;
 }
+
 a {
     text-decoration: none;
     color: black;
+}
+
+.triptext {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+.triptext p {
+    background-color: white;
+    margin: 0;
 }
