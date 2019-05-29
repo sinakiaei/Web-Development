@@ -43,24 +43,12 @@ a {
      display: inline-block;
      width: 100px;
      background-color: gray;
-     font-size: 1.3rem;
+     font-size: 0.9rem;
  }
 
 /*main*/
 .trip-text {
-    background-color: #fa923f;
-    padding: 0;
-    display: flex;
-    font-size: 1rem;
-}
-
-.trip-text p {
-    background-color: #521751;
-    color: white;
-    margin: 0;
-    width: 50%;
-    text-align: center;
-    font-size: 16px;
+    display: none;
 }
 
 .trip-images {
@@ -69,11 +57,10 @@ a {
 }
 
 .trip-images img {
-    width: 50%;
-    min-width: 200px;
+    width: 100%;
     height: 100%;
-
 }
+
 .feedback {
     position: relative; 
     bottom: 18.4px; 
@@ -107,4 +94,33 @@ a {
     font-size: 16px;
 }
 
+@media (min-width: 400px) {
+    .navigation li {
+        font-size: 1.2rem;
+    }
+   
+}
+
+@media (min-width: 700px) {
+    .trip-images img {
+        width: 50%;
+    }
+
+    .trip-text {
+    background-color: #fa923f;
+    padding: 0;
+    display: flex;
+    font-size: 1rem;
+    }
+
+    .trip-text p {
+    background-color: #521751;
+    color: white;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    }
+
+}
 
